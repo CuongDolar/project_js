@@ -1,0 +1,37 @@
+/* SECTION TOP-BAR */
+
+.top-bar {
+
+  background-color: deeppink;
+  padding: 1rem 0;
+}
+
+/* SOCIAL LIST */
+.top-bar_social-list {
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: nowrap;
+
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar_social-list>li {
+  margin-right: 1rem;
+
+}
+
+.top-bar_social-list>li>a {
+
+  color: white;
+}
+
+
+/* LINKS  */
+.top-bar_links>a,
+.top-bar_links>span {
+  color: white;
+}
